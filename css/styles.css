@@ -2,34 +2,58 @@
 
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-div {
+/* div {
     background-color: #f1e3cb;
-}
+} */
 
 h1 {
     margin-block-start: 0;
+    font-family: 'Sacramento', cursive;
 }
 
 /************************************************CLASS SELECTORS************************************************/
 
+.top-container {
+    /* background-color: #f1e3cb; */
+    background-color: #158467;
+    position: relative;
+    padding-top: 100px;
+}
+
 .middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+
 }
 
 .bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+
 }
 
-.desertimg {
-    width: 885px;
+/* .mountainsandtreesimg {
+    height: auto;
+    width: 100%;
+} */
+
+/* .mountainimg {
+    height: auto;
+    width: 100%; 
+} */
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;;
 }
 
-.cloudsimg {
-    width: 550px;
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+}
+
+.profile-picture {
+    width: 284px;
+    height: 284px;
 }
