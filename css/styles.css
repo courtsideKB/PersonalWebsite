@@ -4,7 +4,6 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    /* line-height: 1.42857143; */
 }
 
 /* div {
@@ -26,6 +25,7 @@ h2 {
 
 h3 {
     color: #ed6663;
+    text-align: left;
 }
 
 
@@ -66,28 +66,33 @@ h3 {
 }
 
 .javaimg {
-    width: 77px;
-    height: 77px;
+    width: 25%;
+    float: left;
+    padding-right: 30px;
 }
 
 .htmlimg {
-    width: 77px;
-    height: 77px;
+    width: 25%;
+    float: right;
+    padding-left: 30px;
 }
 
 .cssimg {
-    width: 77px;
-    height: 77px;
+    width: 25%;
+    float: left;
+    padding-right: 30px;
 }
 
 .javascriptimg {
-    width: 77px;
-    height: 77px;
+    width: 25%;
+    float: right;
+    padding-left: 30px;
 }
 
 .pythonimg {
-    width: 77px;
-    height: 77px;
+    width: 25%;
+    float: left;
+    padding-right: 30px;
 }
 
 .h1desc {
@@ -104,3 +109,11 @@ h3 {
 .attribution-link {
     color: #ed6663; 
 }
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
